@@ -1,12 +1,12 @@
 [package]
-name = "diskscope_v2"
-version = "2.0.0"
+name = "diskscope_v3"
+version = "3.0.0"
 edition = "2021"
 build = "build.rs"
 description = "Cross-platform GUI & Headless Server disk space analyzer with SQLite indexing and animated Slime Health widget."
 
 [[bin]]
-name = "diskscope_v2"
+name = "diskscope_v3"
 path = "main.rs"
 
 [dependencies]
