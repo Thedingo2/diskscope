@@ -1,0 +1,48 @@
+# themes/default.toml
+name = "Clean Light (Default)"
+is_dark = false
+
+[window]
+background = "#FFFFFF"
+panel_background = "#F8FAFC"
+card_background = "#F1F5F9"
+border = "#CBD5E1"
+accent = "#2563EB"
+
+[text]
+primary = "#0F172A"
+secondary = "#475569"
+muted = "#94A3B8"
+scanning = "#0284C7"
+ready = "#16A34A"
+warning = "#D97706"
+critical = "#DC2626"
+
+[file_list]
+row_hover = "#F1F5F9"
+row_selected = "#DBEAFE"
+size_bar_fill = "#BFDBFE"
+folder_icon = "#2563EB"
+file_icon = "#64748B"
+
+[pie_chart]
+center_hole = "#FFFFFF"
+slice_stroke = "#FFFFFF"
+min_slice_degrees = 1.5
+palette = [
+    "#2563EB",
+    "#16A34A",
+    "#D97706",
+    "#DC2626",
+    "#9333EA",
+    "#0891B2",
+    "#DB2777",
+    "#65A30D",
+]
+
+[health_widget]
+card_bg = "#FFFFFF"
+bar_track = "#E2E8F0"
+bar_healthy = "#16A34A"
+bar_warning = "#D97706"
+bar_critical = "#DC2626"

@@ -1,0 +1,47 @@
+name = "Dark Slate"
+is_dark = true
+
+[window]
+background = "#14161B"
+panel_background = "#1A1D24"
+card_background = "#222630"
+border = "#2E3440"
+accent = "#3B82F6"
+
+[text]
+primary = "#F3F4F6"
+secondary = "#9CA3AF"
+muted = "#6B7280"
+scanning = "#38BDF8"
+ready = "#4ADE80"
+warning = "#FBBF24"
+critical = "#F87171"
+
+[file_list]
+row_hover = "#262B36"
+row_selected = "#2D3545"
+size_bar_fill = "#1E3A5F"
+folder_icon = "#60A5FA"
+file_icon = "#9CA3AF"
+
+[pie_chart]
+center_hole = "#14161B"
+slice_stroke = "#14161B"
+min_slice_degrees = 1.5
+palette = [
+    "#3B82F6",
+    "#22C55E",
+    "#F59E0B",
+    "#EF4444",
+    "#A855F7",
+    "#06B6D4",
+    "#EC4899",
+    "#84CC16",
+]
+
+[health_widget]
+card_bg = "#181A20"
+bar_track = "#2A2E39"
+bar_healthy = "#22C55E"
+bar_warning = "#F59E0B"
+bar_critical = "#EF4444"
